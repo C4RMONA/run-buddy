@@ -1,78 +1,72 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <!-- Link to external CSS-->
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <meta charset="utf-8" />
-        <title>Run Buddy</title>
-    </head>
+<head>
+ <!-- Link to external CSS-->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta charset="utf-8" />
+  <title>Run Buddy</title>
+</head>
 
-    <body>
-        <!-- navigation-->
-        <header>
+<body>
+ <!-- navigation-->
+  <header>
+    <h1>
+      <a href="/">RUN BUDDY</a>
+    </h1>
+    <nav>
+     <!-- Unorder list element -->
+      <ul>
+        <!-- List of element -->
+        <li>
+        <!-- Anchor element -->
+         <a href="#what-we-do">What We Do</a>
+        </li>
+        <li>
+         <a href="#what-you-do">What You Do</a>
+        </li>
+        <li>
+         <a href="#your-trainers">Your Trainers</a>
+        </li>
+        <li>
+         <a href="#reach-out">Reach Out</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-            <h1>
-                <a href="/">RUN BUDDY</a>
-            </h1>
-            <nav>
-                <!-- Unorder list element -->
-                <ul>
-                   <!-- List of element -->
-                   <li>
-                    <!-- Anchor element -->
-                     <a href="#what-we-do">What We Do</a>
-                   </li>
-                   <li>
-                    <a href="#what-you-do">What You Do</a>
-                   </li>
-                   <li>
-                    <a href="#your-trainers">Your Trainers</a>
-                   </li>
-                   <li>
-                    <a href="#reach-out">Reach Out</a>
-                   </li>
-                </ul>
-            </nav>
+  <!-- hero/jumbotron -->        
+  <section class="hero">
+      <div class="hero-form">
+        <h3>Get Started Today</h3>
+        <p>Fill out this form and one of our trainers will schedule a consult</p>
+        <form>
+          <label for="name">Enter full name:</label>
+          <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+          <label for="email">Enter email address:</label>
+          <input type="email" placeholder="Email Adress" name="email" id="email" class="form-input">
+          <label for="phone">Enter a telephone number:</label>
+          <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input">
+          <p>
+              Have you worked out with a trainer before?
+              <input type="radio" name="trainer-confirm" id="trainer-yes" />
+              <label for="trainer-yes">Yes</label>
+              <input type="radio" name="trainer-confirm" id="trainer-no" />
+              <label for="trainer-no">No</label>
+          </p>
+          <p>
+              <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+              <input type="checkbox" name="age-confirm" id="checkbox" />
+          </p>
+              <button type="submit">Get Running!</button>
+        </form>
+      </div>
+      </section>
 
-        </header>
-
-        <!-- hero/jumbotron -->        
-        <section class="hero">
-            <div class="hero-form">
-                <h3>Get Started Today</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult</p>
-
-                <!-- Add for element -->
-                <form>
-                    <label for="name">Enter full name:</label>
-                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
-                    <label for="email">Enter email address:</label>
-                    <input type="email" placeholder="Email Adress" name="email" id="email" class="form-input">
-                    <label for="phone">Enter a telephone number:</label>
-                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input">
-                    <p>
-                        Have you worked out with a trainer before?
-                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                        <label for="trainer-yes">Yes</label>
-                        <input type="radio" name="trainer-confirm" id="trainer-no" />
-                        <label for="trainer-no">No</label>
-                    </p>
-                    <p>
-                        <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
-                        <input type="checkbox" name="age-confirm" id="checkbox" />
-                    </p>
-                    <button type="submit">Get Running!</button>
-                </form>
-            </div>
-    
-        </section>
-
-        <!-- "what we do" section -->     
-        <section id="what-we-do" class="intro">
-            <h2 class="section-title primary-border">What We Do</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, est? Corporis, provident accusamus! Itaque et suscipit illo rem minima rerum veritatis modi quas distinctio. In eveniet officiis facilis iure provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis accusantium, illo rerum nobis, labore et aut doloribus voluptate consectetur earum perferendis quod dolorum excepturi deserunt nihil reprehenderit temporibus iure?</p>
-        </section>
+  <!-- "what we do" section -->     
+  <section id="what-we-do" class="intro">
+    <h2 class="section-title primary-border">What We Do</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, est? Corporis, provident accusamus! Itaque et suscipit illo rem minima rerum veritatis modi quas distinctio. In eveniet officiis facilis iure provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis accusantium, illo rerum nobis, labore et aut doloribus voluptate consectetur earum perferendis quod dolorum excepturi deserunt nihil reprehenderit temporibus iure?</p>
+  </section>
 
         <!--"What you do" Section -->
         <section id="what-you-do" class="steps">
@@ -165,6 +159,6 @@
             </div>
         </footer>
         
-    </body>
+</body>
 
 </html>
