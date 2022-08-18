@@ -1,10 +1,11 @@
-<<<<<<< HEAD
-# Run Buddy, Inc.
-=======
 # Run Buddy, Inc
->>>>>>> 46b0dcc16869aadc96979033dc64e60213d799b0
+
+## Description
+
+This Run Buddy application introduces and provides practice in HTML and CSS. One of the first demo's provided by UTSA full stack web development boot camp to help students understand the basic concepts of HTML and CSS styling.
 
 ## Purpose
+
 A website that offers fitness training services. 
 
 ## Built With
@@ -12,9 +13,10 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://c4rmona.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by [your name]
+Made with ❤️ by Christian Carmona
 
 ### ©️2019 Run Buddy, Inc 
+
