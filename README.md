@@ -13,7 +13,6 @@ A website that offers fitness training services.
 - [Built With](#Built-With)
 - [Installation](#Installation)
 - [Deployed Link](#Deployed-Link)
-- [Usage](#Usage)
 - [Contributions](#Contributions)
 
 ## Built With
@@ -25,8 +24,6 @@ No Installation is required.
 
 ## Deployed Link
 https://c4rmona.github.io/run-buddy/
-
-## Usage
 
 ## Contributions
 Made with ❤️ by Christian Carmona
